@@ -1,15 +1,32 @@
-# stat-projects-bin
+# Welcome-To-Math-Skills-Project
 
-An infrastructure to run binaries to test the `stat-projects` on all platforms
-that support `docker-engine`.
-
-The binaries present in the directory `bin/` can be run directly on most Linux
-distributions without using the below instructions.
+a program that you give it some numbers and by doing some operations
+the programe will give you this result:
+Average
+Median
+Variance
+Standard Deviation
 
 ## How to run
 
-> To be able to run this script you need to have installed locally
-> [`docker-engine`](https://docs.docker.com/engine/install/)
+> Frome the audit page you will get a zip folder, you have to Extract it in the math-skills folder
 
-Run the script `./run.sh <bin-name>`. The `<bin-name>` must be inside the
-`/bin` directory.
+Run this command first:
+> run ./bin/math-skills 
+You will get a result like this:
+
+Average: 150
+Median: 148
+Variance: 862
+Standard Deviation: 29
+
+Then rune this command:
+> run go run . data.txt
+You will get a result like this:
+
+Average: 150
+Median: 148
+Variance: 862
+Standard Deviation: 29
+
+Then compare the two results if they are the same then the program is correct.

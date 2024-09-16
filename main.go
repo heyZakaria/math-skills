@@ -91,7 +91,7 @@ func Median(s []float64) float64 {
 func Variance(s []float64, a float64) float64 {
 	var res float64
 	for _, v := range s {
-		res += math.Sqrt(v - a)
+		res += math.Pow((v - a), 2)
 	}
 	res = res / float64(len(s))
 
